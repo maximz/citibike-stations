@@ -12,3 +12,7 @@ Actually that's been updated to `./run.sh`
 
 Crontab installation:
 `*/10 * * * * cd "/datadrive/citibike-stations-scraper" && ./run.sh;`
+
+
+how to see whats going on inside:
+`docker run -v $(pwd):/root/db:ro -it nouchka/sqlite3`
